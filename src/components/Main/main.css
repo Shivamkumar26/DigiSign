@@ -1,0 +1,105 @@
+.signature-pad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px 0px 0px;
+  background-color: #fcf3f0;
+}
+
+@media (max-width: 768px) {
+  .signature-pad .canvas-container,
+  .signature-pad .button-container,
+  .signature-pad .color-picker {
+    display: none;
+  }
+}
+
+.signature-pad .mobile-message {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .signature-pad .mobile-message {
+    display: block;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+}
+
+.color-picker {
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.color-picker label {
+  margin-right: 10px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.color-picker input[type="color"],
+.color-picker input[type="number"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.color-picker input[type="color"] {
+  height: 29px;
+  width: 40px;
+  padding: 1px;
+}
+
+.color-picker input[type="number"] {
+  width: 50px;
+}
+
+.canvas-container {
+  position: relative;
+}
+
+.canvas-container canvas {
+  border: 1px solid #000000;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button-container button:hover {
+  background-color: #1f5ee8;
+}
+
+.clearBtn {
+  background-color: #b568d9;
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.saveBtn {
+  background-color: #d4748e;
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+}

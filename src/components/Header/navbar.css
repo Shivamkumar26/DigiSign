@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fbcabb;
+  color: #b0573c;
+}
+
+.navbar.dark-mode {
+  background-color: #1a0a1c;
+  color: #fff;
+}
+
+.navbar-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo-text {
+  margin-left: 5px;
+}
+
+.dark-mode-button {
+  padding: 8px 12px;
+  background-color: #c27057;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.dark-mode-button:hover {
+  background-color: #b0573c;
+}
+
+.dark-mode-button.dark-mode {
+  background-color: #1a0a1c;
+  color: #fff;
+}

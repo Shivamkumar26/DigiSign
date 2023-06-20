@@ -1,0 +1,35 @@
+.footer {
+  background-color: #61304f;
+  color: #fff;
+  text-align: center;
+}
+.footer.dark-mode {
+  background-color: black;
+  color: #ffffff;
+}
+
+.footerr {
+  padding: 5px;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  color: pink;
+  margin: 3px 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
